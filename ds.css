@@ -191,18 +191,37 @@ body {
 }
 
 .startSelect {
-  width: 25px;
-  height: 25px;
+  top: -50px;
+  left: 415px;
+  position: relative;
+}
+
+.startSelect > div {
+  width: 10px;
+  height: 10px;
   background-color: rgb(153, 153, 153);
   border-radius: 15px;
   color: rgb(78, 78, 80);
   border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.startSelect #Start{
-    left: 10px;
+.startSelect #Start {
+  left: 10px;
 }
 
-.startSelect #Select{
-    left: 10px;
+.startSelect #Select {
+    margin-top: 7px;
+  left: 10px;
+}
+
+.startSelect #startText{
+    margin-left: 13px;
+}
+
+.startSelect #selectText{
+    margin-left: 13px;
 }
