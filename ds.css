@@ -207,6 +207,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
 }
 
 .startSelect #Start {
@@ -214,7 +215,7 @@ body {
 }
 
 .startSelect #Select {
-    margin-top: 7px;
+    top: 20px;
   left: 10px;
 }
 
@@ -223,5 +224,6 @@ body {
 }
 
 .startSelect #selectText{
+
     margin-left: 13px;
 }
