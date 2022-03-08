@@ -189,3 +189,20 @@ body {
 .botones #Y {
   left: -30px;
 }
+
+.startSelect {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(153, 153, 153);
+  border-radius: 15px;
+  color: rgb(78, 78, 80);
+  border: 1px solid black;
+}
+
+.startSelect #Start{
+    left: 10px;
+}
+
+.startSelect #Select{
+    left: 10px;
+}
