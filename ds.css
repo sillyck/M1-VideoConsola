@@ -108,87 +108,84 @@ body {
   border-radius: 5px;
 }
 
-.movimiento{
-    position: relative;
-    top: 100px;
-    left: 60px;
+.movimiento {
+  position: relative;
+  top: 100px;
+  left: 60px;
 }
 
-.movimiento > div{
+.movimiento > div {
   width: 20px;
   height: 20px;
-  background-color: rgb(78, 78, 80);
+  background-color: rgb(153, 153, 153);
   position: absolute;
   text-align: center;
+  color: rgb(78, 78, 80);
 }
 
-.movimiento #arriba{
-    top: -20px;
-    left: -1px;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+.movimiento #arriba {
+  top: -20px;
+  left: -1px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
-.movimiento #abajo{
-    top: 20px;
-    left: -1px;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+.movimiento #abajo {
+  top: 20px;
+  left: -1px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
-.movimiento #izquierda{
-    left: -21.3px;
-    top: 0px;
-    transform: rotate(90deg);
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
+.movimiento #izquierda {
+  left: -21.3px;
+  top: 0px;
+  transform: rotate(90deg);
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
 
-.movimiento #derecha{
-    left: 19.5px;
-    top: 0px;
-    transform: rotate(90deg);
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
+.movimiento #derecha {
+  left: 19.5px;
+  top: 0px;
+  transform: rotate(90deg);
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
 }
 
-
-.botones{
-    position: relative;
-    top: 100px;
-    left: 60px;
+.botones {
+  top: -150px;
+  left: 465px;
+  position: relative;
 }
 
-.botones > div{
-  width: 20px;
-  height: 20px;
-  background-color: rgb(78, 78, 80);
+.botones > div {
   position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(153, 153, 153);
   text-align: center;
+  border-radius: 15px;
+  color: rgb(78, 78, 80);
+  border: 1px solid black;
 }
 
-.botones #arriba{
-    top: -20px;
-    left: -1px;
+.botones #X {
+  top: -30px;
 }
 
-.botones #abajo{
-    top: 20px;
-    left: -1px;
+.botones #B {
+  top: 30px;
 }
 
-.botones #izquierda{
-    left: -21.3px;
-    top: 0px;
-    transform: rotate(90deg);
+.botones #A {
+  left: 30px;
 }
 
-.botones #derecha{
-    left: 19.5px;
-    top: 0px;
-    transform: rotate(90deg);
+.botones #Y {
+  left: -30px;
 }
